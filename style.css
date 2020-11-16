@@ -28,6 +28,7 @@ ul{
     font-weight: 300;
 }
 .box {
+    width: 40%;
     position: absolute;
 }
 .box__form {
@@ -42,7 +43,7 @@ ul{
     height: 50px;
     outline: none;
     color: white;
-    width: 500px;
+    width: 100%;
 }
 .add-btn {
     border: none;
