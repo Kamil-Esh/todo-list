@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-color: #455a64;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin-top: 15px;
+}
+.todo__title {
+    font-size: 72px;
+    margin: 100px 0;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.box {
+    position: absolute;
+}
+.box__form {
+    position: relative;
+}
+.todo-input {
+    font-family: 'Oswald', sans-serif;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 24px;
+    height: 50px;
+    outline: none;
+    color: white;
+    width: 500px;
+}
+.add-btn {
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    color: black;
+}
+.del-btn {
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
